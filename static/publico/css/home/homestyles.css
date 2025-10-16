@@ -74,7 +74,7 @@
 
 .announcement-bar {
   display: flex;
-  background-color: #803D44;
+  background-color: #1A242F;
   padding: 0; /* Asegura que no haya padding en la barra principal 
   position: fixed;*/
   bottom: 0;
@@ -340,7 +340,7 @@
 .carousel-caption .imgpost {
     width: 25%;
     height: auto;
-    border-radius: 50%; /* Hace la imagen circular */
+    /*border-radius: 50%;  Hace la imagen circular */
     object-fit: cover;
     margin-bottom: 15px;
     display: block;
@@ -578,8 +578,8 @@
     width: 15vw;
     min-height: 15vw;
     height: 15vw;
-    border-radius: 50%; /* Hace la imagen circular */
-    object-fit: cover;
+    /*border-radius: 50%;  Hace la imagen circular */
+    object-fit: contain;
     margin-bottom: 15px;
 
 }

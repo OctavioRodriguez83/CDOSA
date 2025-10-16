@@ -1,8 +1,8 @@
 #aboutimg {
     width: 15vw; /* Ajusta el tamaño de la imagen en función del ancho de la pantalla */
     height: 15vw; /* Mantiene la imagen en forma circular */
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    object-fit: cover; /* Mantiene la proporción de la imagen al recortarla */
+    /*border-radius: 50%;  Hace que la imagen sea circular */
+    object-fit: contain; /* Mantiene la proporción de la imagen al recortarla */
     margin-bottom: 15px; /* Espaciado entre la imagen y el texto */
   }
   /*--------------------------------------------------------------------------------------------*/
